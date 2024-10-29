@@ -4,49 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Yahya El Hadri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.2em;
+            color: #0073e6;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 0.2em;
+            margin-top: 1.5em;
+        }
+
+        p, ul {
+            margin-bottom: 1.2em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .contact-info a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .skills, .experience, .education {
+            padding: 10px 20px;
+        }
+
+        .skills li, .experience li, .education li {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 500;
+        }
+
+        .experience li strong {
+            font-weight: 600;
+            color: #0073e6;
+        }
+    </style>
 </head>
 <body>
-    <h1>Yahya El Hadri</h1>
-    <p>Cerro de los Palacios, 4, Yuncos (Toledo)<br>
-       Teléfono: 695970883<br>
-       Email: Anasmed13yahya@gmail.com
-    </p>
+    <div class="container">
+        <h1>Yahya El Hadri</h1>
+        <div class="contact-info">
+            <p>Cerro de los Palacios, 4, Yuncos (Toledo)</p>
+            <p>Teléfono: 695970883</p>
+            <p>Email: Anasmed13yahya@gmail.com</p>
+        </div>
 
-    <h2>Aptitudes</h2>
-    <ul>
-        <li>Hablo 4 idiomas: castellano, inglés, francés y árabe.</li>
-        <li>Soy una persona simpática y graciosa, me gusta el trabajo en equipo y hacer que el trabajo sea más ameno y divertido.</li>
-        <li>Habilidad en el uso de ordenadores.</li>
-        <li>Buena relación con el público.</li>
-    </ul>
-    <p>Carnet: Carretillero<br>
-       Permiso de Conducir: B</p>
+        <h2>Aptitudes</h2>
+        <div class="skills">
+            <ul>
+                <li>Hablo 4 idiomas: castellano, inglés, francés y árabe.</li>
+                <li>Simpático y gracioso, con facilidad para el trabajo en equipo y en hacer que el trabajo sea ameno.</li>
+                <li>Habilidad en el uso de ordenadores.</li>
+                <li>Buena relación con el público.</li>
+            </ul>
+            <p><strong>Carnet:</strong> Carretillero</p>
+            <p><strong>Permiso de Conducir:</strong> B</p>
+        </div>
 
-    <h2>Experiencia</h2>
-    <ul>
-        <li><strong>Repartidor - TELEPIZZA (Yuncos)</strong><br>
-            Febrero 2021 - Mayo 2021</li>
-        <li><strong>Socorrista (Madrid)</strong><br>
-            Verano 2021, Verano 2022, Verano 2023</li>
-        <li><strong>Peón - Huevos Guillén (Villaluenga de la Sagra)</strong><br>
-            Agosto 2021 - Actualmente trabajando</li>
-        <li><strong>Repartidor - DOMINO’S PIZZA (Illescas)</strong><br>
-            Septiembre 2021 - Noviembre 2021</li>
-        <li><strong>Mozo de almacén - Unide / AVANZA (Valdemoro)</strong><br>
-            Agosto 2022 - Abril 2023</li>
-        <li><strong>Mozo de almacén - Lohigfashion (Toledo)</strong><br>
-            Junio 2023 - Septiembre 2023</li>
-        <li><strong>Mozo de almacén - GXO (Illescas)</strong><br>
-            Febrero 2023</li>
-        <li><strong>Informático - Lafarge Holcim (Villaluenga de la Sagra)</strong><br>
-            Marzo 2021 - Junio 2021 (Prácticas como Técnico en Soporte Informático)</li>
-    </ul>
+        <h2>Experiencia</h2>
+        <div class="experience">
+            <ul>
+                <li><strong>Repartidor - TELEPIZZA (Yuncos)</strong> <span>Feb 2021 - May 2021</span></li>
+                <li><strong>Socorrista (Madrid)</strong> <span>Veranos 2021, 2022, 2023</span></li>
+                <li><strong>Peón - Huevos Guillén (Villaluenga de la Sagra)</strong> <span>Ago 2021 - Presente</span></li>
+                <li><strong>Repartidor - DOMINO’S PIZZA (Illescas)</strong> <span>Sep 2021 - Nov 2021</span></li>
+                <li><strong>Mozo de almacén - Unide / AVANZA (Valdemoro)</strong> <span>Ago 2022 - Abr 2023</span></li>
+                <li><strong>Mozo de almacén - Lohigfashion (Toledo)</strong> <span>Jun 2023 - Sep 2023</span></li>
+                <li><strong>Mozo de almacén - GXO (Illescas)</strong> <span>Feb 2023</span></li>
+                <li><strong>Informático - Lafarge Holcim (Villaluenga de la Sagra)</strong> <span>Mar 2021 - Jun 2021 (Prácticas)</span></li>
+            </ul>
+        </div>
 
-    <h2>Formación</h2>
-    <ul>
-        <li>Educación Secundaria Obligatoria - IES La Cañuela, Yuncos</li>
-        <li>Grado Medio en Microsistemas Informáticos y Redes - IES La Cañuela, Yuncos</li>
-        <li>Grado Superior en Desarrollo de Aplicaciones Web - IES Luis Vives, Leganés</li>
-    </ul>
+        <h2>Formación</h2>
+        <div class="education">
+            <ul>
+                <li><strong>Educación Secundaria Obligatoria</strong> <span>IES La Cañuela, Yuncos</span></li>
+                <li><strong>Grado Medio en Microsistemas Informáticos y Redes</strong> <span>IES La Cañuela, Yuncos</span></li>
+                <li><strong>Grado Superior en Desarrollo de Aplicaciones Web</strong> <span>IES Luis Vives, Leganés</span></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
